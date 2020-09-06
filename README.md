@@ -20,4 +20,10 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 ```
 Username/Password = admin/argocd-server-pod-name
 
+# MediaWiki
+Add helm repo from ArgoCD UI 
+```
+helm repo add bitnami https://charts.bitnami.com/bitnami
+```
+Create APP in argocd and deploy mediawiki.
 
